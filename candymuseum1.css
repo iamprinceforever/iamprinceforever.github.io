@@ -1,0 +1,137 @@
+body
+{
+	padding:5%;
+	background: #f5d9d5;
+	font-family: "Nunito",sans-serif;
+}
+#mainnav
+{
+		font-size: 1.5rem;
+	font-weight: 100;
+
+}
+#mainnav .navbar-brand
+{
+	color: #ea1c2c;
+	font-size: 1.5rem;
+   font-family: "Pacifico",sans-serif ;
+
+}
+#mainnav .nav-link:hover
+{
+	color:  #ea1c2c;
+}
+#mainnav .nav-link
+{
+	color: gray;
+}
+#headings span
+{
+	color: #ea1c2c;
+}
+#headings h1
+{
+	font-weight: 100;
+	font-size: 4rem;
+	color:  #cc3b56;
+}
+.nabar.scrolled
+{
+	background: rgb(222,192,222);
+	transition: background 500ms
+}
+@media(max-width: 1200px)
+{
+	#headings h1
+	{
+		font-weight: 100;
+		font-size: 3rem;
+	}
+}
+h2
+{
+	color: #ea1c2c;
+	font-weight: 100;
+	font-size: 2.5rem;
+}
+p
+{
+	font-weight: 100;
+	font-size: 1.125rem;
+	color:gray;
+	line-height: 1.5;
+
+}
+/* .content
+{
+	margin-top: 100px;
+	margin-bottom: 100px;
+} */
+.logo
+{
+	width: 150px;
+	height: 120px;
+	padding-left: 45px;
+	padding-top: 25px;
+}
+.nav-item
+{
+	padding-left: 10px;
+}
+.signform{
+width: 500px;
+height: 565px;
+padding-left: 200px;
+padding-top: 50px;
+}
+.signtext{
+	 font-family: "Pacifico";
+	color: gray;
+	font-size: 1.4rem;
+
+}
+.container{
+	margin-top: 80px;
+
+
+}
+.drimage{
+	padding:3px;
+	border: 2px solid #cc3b56;
+
+}
+.abt
+{
+padding-top: 10px;
+margin-left: 100px;
+}
+
+.img-fluid{
+	width: 600px;
+	height: 700px;
+	padding-left: 50px;
+	padding-top: 50px;
+
+}
+.hiw{
+	font-size:36px;
+	color:  #cc3b56;
+	font-weight: 120;
+
+}
+#indextext{
+	font-size: 90px;
+	padding-left: 60px;
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+	color: #cc3b56;
+	background: white;
+
+}
+.indeximg{
+	padding-top: 80px;
+	padding-left: 60px;
+	width:900px;
+	height:500px;
+
+}

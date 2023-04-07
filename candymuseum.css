@@ -1,0 +1,33 @@
+body {
+    background-color: #f5d9d5;
+    font-family: "Nunito", cyrillic-ext;
+    text-align: center;
+  }
+  .card-title{
+    font-family: 'Courgette', cursive;
+    font-size:larger;
+    color:#686969;
+    text-align: center;
+  }
+  .card-body{
+    text-align: right;
+  }
+  .card-head{
+    font-family: 'Candal', sans-serif;
+    color:#686969;
+    font-size: medium;
+    text-align: center;
+  }
+  .logo {
+    width: 100px; 
+  }
+  .img-fluid{ 
+    width: 70%;
+    image-orientation: from-image;
+  }
+  h1 {
+    color: #0d842d;
+  }
+  a{
+    font-size: 25px;
+  }
