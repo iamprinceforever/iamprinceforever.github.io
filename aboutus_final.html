@@ -23,7 +23,7 @@
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
 
-  <title>Fika - Pause and Reconnect</title>
+  <title>Mind Oasis - We Care</title>
 </head>
 <body>
    <nav id="mainnav" class="navbar fixed-top navbar-expand-md navbar-light" style="background-color:#f5d9d5 ;">
@@ -70,28 +70,82 @@
       <div class="col-lg-6">
         <div id="headings" class="text-center text-white d-none d-lg-block mt-5">
           <h1><b>About Us</b></h1>
+          <style>
+            h1:after {
+              display:block;
+              content: '';
+              border-bottom: solid 5px #2d3a59; 
+              transform: scaleX(0.2);  
+              transition: transform 250ms ease-in-out;
+            }
+            h1:hover:after { transform: scaleX(0.45); }
+          </style>
+          <div class="expand-line"></div><br>
         </div>  <p><b>Wondering about the problems of the modern world and how they could use their expertise to come up with innovative solutions for the same, a team consisting of college mates from an engineering grad school came up with the idea for fika.</b></p>
         <p><b>Fika is an online counselling platform to prepare you for the fight against mental illness. Whether you are a stressed out student, a burned out employee or having troubles in your relationship we are here to help. We connect you to experts at the click of a mouse. We are accessible to people around the world no matter their age, gender, religion, financial well-being, etc.  We provide you a platform to discuss your problems without the pressure of revealing your identity. </p></b>
         <p><b>Our aim is to reach out to those who haven't been able to seek help due to a variety of reasons and are struggling with symptoms like anxiety, depression, etc. every passing day.</p></b>
       </div>
 
       <div class="col-lg-6">
-        <img  class="img-fluid" src="brain.png">
+        <img  class="img-fluid" src="assets\images\brain-exercise.png">
       </div>
     </div>
   </section>
 </div>
+<br>
+<div class="article4">
+  <style>
+    /* CSS for hyperlink */
+    h2 {
+      color: rgb(18, 243, 123); /* Default color */
+      text-decoration: none; /* Remove underline */
+      transition: color 0.3s; /* Transition effect for smooth color change */
+    }
+  
+    /* CSS for hover effect */
+    h2.line-transition {
+      position: relative;
+    }
+    
+    h2.line-transition::before {
+      content: '';
+      position: absolute;
+      left: 400px;
+      top: 50%;
+      width: 5px;
+      height: 100px;
+      background-color: #ffffff;
+      transform: translateY(-50%);
+      transition: height 0.3s;
+    }
+    
+    h2.line-transition:hover::before {
+      height: 130%;
+    }
+    h2:hover {
+      color: rgb(237, 54, 54); /* Color to apply when hovering */
+    }
+  
+    /* CSS for content container */
+    .article4 {
+      display:flex; /* Enable flexbox layout */
+      align-items: center; /* Align items vertically */
+      gap: 20px; /* Add some space between image and content */
+    }
+  
+    /* CSS for image */
+    .side-image {
+      width: 250px; /* Set desired width for the image */
+      height: 250px; /* Maintain aspect ratio */
+    }
+  </style>
+  <h2 class="line-transition" style="font-family: 'Courgette', cursive;">“We take Mental Health Seriously” <br>-John</h2>
+  <p style="color:white;font-size:18px">John Phillips is the Founder and CEO of Mind Oasis.<br> He did PHD in Mental Health and he decided to give treatment to patients<br> suffering from mental illness. His Aim is to make his services reach every end of the world and make the world a happier place.  </p>
+  <img src="assets\images\Founder.jpg" alt="Side Image" class="side-image"><br>
+</div><br>
 
-<div class="card text-center">
-
-  <div class="card-body">
-    <h5 class="card-title" style="color: #ea1c2c"><b>WE WANT THE WORLD TO BE A HAPPIER PLACE.</b></h5>
-    <p class="card-text">WE ARE A SMALL AND MIGHTY TEAM PASSIONATE ABOUT THE MENTAL HEALTH AND WELL BEING OF PEOPLE.</p>
-
-  </div>
-</div>
 <footer>
-  <p style="text-align:center">&copy; 2023 Fika. All rights reserved.</p>
+  <p class="footer2" style="text-align:center"><br>&copy; <b>2023 Mind Oasis. All rights reserved.</b></p>
 </footer> 
 
 

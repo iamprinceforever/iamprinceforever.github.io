@@ -48,7 +48,40 @@
  
 </ul>
     </nav>
+    <style>
+      h5:after {
+      display:block;
+      content: '';
+      border-bottom: solid 5px #2d3a59;  
+      transform: scaleX(0.1);
+      position: relative;
+      right: 270px;  
+      transition: transform 250ms ease-in-out;
+    }
+    h5:hover:after { transform: scaleX(0.2); }
+    .title1:after{
+      right: 286px;
+    }
+    .title1:hover::after {
+      transform: scaleX(0.19);
+    }
+    .title2:after{
+      right: 260px;
+    }
+    .title2:hover::after {
+      transform: scaleX(0.25);
+    }
+    .title3:hover::after {
+      transform: scaleX(0.23);
+    }
+    .title4:after{
+      right: 264px;
+    }
+    .title4:hover::after {
+      transform: scaleX(0.24);
+    }
 
+    </style>
 
 <div class="container">
       <div class="card mb-3" >
@@ -58,7 +91,7 @@
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Dr. Monika Sharma <br><small class="text-muted">Ph.D | M.A. | M.Phil.</small></h5>
+              <h5 class="card-title title4">Dr. Monika Sharma </h5><div class="expand-line"></div><p><small class="text-muted">Ph.D | M.A. | M.Phil.</small></p>
               <p class="card-text"><small class="text-muted">3 years experience <br> Specialisation in : Psychotic Disorders</small></p>
               <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal" data-whatever="@1">Share your problem</button>
             </div></div></div></div><br>
@@ -69,7 +102,7 @@
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">Dr. Ahmed Ansari <br><small class="text-muted">B.A. | M.A.</small></h5>
+                <h5 class="card-title title3">Dr. Ahmed Ansari </h5><div class="expand-line"></div><p><small class="text-muted">B.A. | M.A.</small></p>
                 <p class="card-text"><small class="text-muted">3 years experience <br> Specialisation in : Depression related problems</small></p>
                 <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal" data-whatever="@2">Share your problem</button>
               </div></div></div></div><br>
@@ -80,7 +113,7 @@
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">Dr. Priyanka Pandey<br><small class="text-muted">M.Phil.</small></h5>
+                <h5 class="card-title title2">Dr. Priyanka Pandey</h5><div class="expand-line"></div><p><small class="text-muted">M.Phil.</small></p>
                 <p class="card-text"><small class="text-muted">6 years experience <br> Specialisation in : Amnesia</small></p>
                 <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal" data-whatever="@3">Share your problem</button>
               </div></div></div></div><br>
@@ -91,7 +124,7 @@
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">Dr. Ajay Singh <br><small class="text-muted">B.A. | M.Phil.</small></h5>
+                <h5 class="card-title title1">Dr. Ajay Singh </h5><div class="expand-line"></div><p><small class="text-muted">B.A. | M.Phil.</small></p>
                 <p class="card-text"><small class="text-muted">9 years experience <br> Specialisation in : Anxiety related problems</small></p>
                 <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal" data-whatever="@4">Share your problem</button>
               </div></div></div></div><br>
@@ -124,7 +157,7 @@
 
     </div>
     <footer>
-      <p style="text-align:center">&copy; 2023 Fika. All rights reserved.</p>
+      <p class="footer4" style="text-align:center"><br>&copy; <b>2023 Mind Oasis. All rights reserved.</b></p>
     </footer> 
 
 
